@@ -9,6 +9,7 @@
 body {
   display: flex;
   margin: 0;
+  background-color: rgb(239, 239, 239);
 }
 
 div {
@@ -60,6 +61,41 @@ div {
   font-family: Roboto;
   font-size: 1.5rem;
   width: 80%;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--text-padding);
+  gap: 5px;
+}
+
+h3 {
+  width: 100%;
+  margin: 0;
+}
+
+label {
+  font-size: 0.8rem;
+  width: 45%;
+}
+
+input {
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 30px var(--text-padding);
+  width: fit-content;
+  padding: 15px 30px;
+  background-color: rgb(51, 82, 51);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 12px;
 }
 
 .log-in p{
