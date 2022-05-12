@@ -20,6 +20,7 @@ div {
   position: relative;
   display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
 #background {
@@ -48,6 +49,17 @@ div {
   margin: 0;
   font-family: norse-bold;
   font-size: 5rem;
+}
+
+#photo-container>p {
+  position: absolute;
+  top: 95%;
+  margin: auto;
+  color: white;
+}
+
+#photo-container a {
+  color: white;
 }
 
 #content-container {
@@ -104,7 +116,7 @@ input[type="submit"] {
   width: auto;
 }
 
-a {
+#content-container a {
   text-decoration: none;
   color: darkgreen;
 }
