@@ -66,6 +66,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: min(800px, 100%);
 }
 
 #content-container p {
@@ -80,6 +81,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   padding: var(--text-padding);
+  /* padding-right: max(300px, auto); */
   gap: 5px;
   filter: drop-shadow(0 5px 4px lightgrey);
 }
