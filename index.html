@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
   <div id="photo-container">
@@ -30,20 +31,21 @@
       <label for="first-name">FIRST NAME</label>
       <label for="last-name">LAST NAME</label>
       
-      <input type="text" name="first-name">
-      <input type="text" name="last-name">
+      <input type="text" name="first-name" placeholder="John" required>
+      <input type="text" name="last-name" placeholder="Doe" required>
 
       <label for="email">EMAIL</label>
       <label for="phone-number">PHONE NUMBER</label>
       
-      <input type="email" name="email">
+      <input type="email" name="email" 
+              placeholder="example@abc.com" required>
       <input type="tel" name="phone-number">
 
       <label for="password">PASSWORD</label>
       <label for="confirm-pass">CONFIRM PASSWORD</label>
       
-      <input type="password" name="password">
-      <input type="password" name="confirm-pass">
+      <input type="password" name="password" required>
+      <input type="password" name="confirm-pass" required>
 
     </form>
     <button id="create-account">

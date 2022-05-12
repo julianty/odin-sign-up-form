@@ -69,6 +69,7 @@ form {
   flex-wrap: wrap;
   padding: var(--text-padding);
   gap: 5px;
+  filter: drop-shadow(0 5px 4px lightgrey);
 }
 
 h3 {
@@ -86,6 +87,7 @@ input {
   margin-right: 5%;
   margin-bottom: 15px;
 }
+
 
 button {
   margin: 30px var(--text-padding);
