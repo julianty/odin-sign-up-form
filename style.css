@@ -16,7 +16,37 @@ div {
 }
 
 #photo-container {
+  position: relative;
+  display: flex;
   height: 100vh;
+}
+
+#background {
+  /* position: relative; */
+}
+
+#odin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  bottom: 70%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+#logo {
+  width: 100px;
+}
+
+#odin-logo p {
+  flex: 0;
+  margin: 0;
+  font-family: norse-bold;
+  font-size: 5rem;
 }
 
 #content-container {
@@ -25,7 +55,7 @@ div {
   justify-content: center;
 }
 
-p {
+#content-container p {
   padding-left: var(--text-padding);
   font-family: Roboto;
   font-size: 1.5rem;
