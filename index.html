@@ -3,23 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="photo-container">
-
+    <img src="background-image.avif">
   </div>
 
   <div id="content-container">
     <div id="welcome-text">
-
+      <p>This is not a real online service! You know you
+        need something like this in your life to help you
+        realize your deepest dreams. Sign up <em>now</em>
+        to get started.
+      </p>
+      <p>
+        You <em>know</em> you want to.
+      </p>
     </div>
-    <form>
+    <form action="#" method="post">
+      <h2>Let's do this!</h2>
+      <label for="first-name">FIRST NAME</label>
+      <input type="text" name="first-name">
+
+      <label for="last-name">LAST NAME</label>
+      <input type="text" name="last-name">
+
+      <label for="email">EMAIL</label>
+      <input type="email" name="email">
+
+      <label for="phone-number">PHONE NUMBER</label>
+      <input type="tel" name="phone-number">
+
+      <label for="password">PASSWORD</label>
+      <input type="password" name="password">
+
+      <label for="confirm-pass">CONFIRM PASSWORD</label>
+      <input type="password" name="confirm-pass">
 
     </form>
     <button id="create-account">
-
+      Create Account
     </button>
-    <p id="log-in"></p>
+    <div class="log-in">
+      <p>Already have an account?<a href="#">Log in</a></p>
+    </div>
   </div>
 </body>
 </html>

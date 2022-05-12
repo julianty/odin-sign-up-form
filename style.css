@@ -1,8 +1,37 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(./Norse-Bold.otf);
+}
+
+:root {
+  --text-padding: 30px;
+}
 body {
   display: flex;
+  margin: 0;
+}
+
+div {
+  margin: 0;
+}
+
+#photo-container {
+  height: 100vh;
 }
 
 #content-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  padding-left: var(--text-padding);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  width: 80%;
+}
+
+.log-in p{
+  width: auto;
 }
