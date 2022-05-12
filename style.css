@@ -89,7 +89,7 @@ input {
 }
 
 
-button {
+input[type="submit"] {
   margin: 30px var(--text-padding);
   width: fit-content;
   padding: 15px 30px;

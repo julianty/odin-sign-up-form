@@ -26,7 +26,7 @@
         You <em>know</em> you want to.
       </p>
     </div>
-    <form action="#" method="post">
+    <form id="sign-up" action="#" method="post">
       <h3>Let's do this!</h3>
       <label for="first-name">FIRST NAME</label>
       <label for="last-name">LAST NAME</label>
@@ -48,9 +48,8 @@
       <input type="password" name="confirm-pass" required>
 
     </form>
-    <button id="create-account">
-      Create Account
-    </button>
+    <input type="submit" id="create-account" form="sign-up" 
+            name="submit-form" value="Create Account">
     <div class="log-in">
       <p>Already have an account? <a href="#">Log in</a></p>
     </div>
